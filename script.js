@@ -1,11 +1,11 @@
-const HOURHAND = document.querySelector("#hour");
-const MINUTEHAND = document.querySelector("#minute");
-const SECONDHAND = document.querySelector("#second");
+const HRHAND = document.querySelector("#hour");
+const MINHAND = document.querySelector("#minute");
+const SECHAND = document.querySelector("#second");
 
 let hrPosition = 90;
 let minPosition = 120;
 let secPosition = 240;
 
-HOURHAND.style.transform = "rotate("+ hrPosition +"deg)";
-MINUTEHAND.style.transform = "rotate("+ minPosition +"deg)";
-SECONDHAND.style.transform = "rotate("+ secPosition +"deg)";
+HRHAND.style.transform = "rotate("+ hrPosition +"deg)";
+MINHAND.style.transform = "rotate("+ minPosition +"deg)";
+SECHAND.style.transform = "rotate("+ secPosition +"deg)";

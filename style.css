@@ -19,6 +19,16 @@
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
+.facebackground {
+    background-image: url("images/LIBERT_SKY.jpg");
+    height: 300px;
+    border-radius: 50%;
+    border: solid 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
 
 .mid-circle {
     fill: #000;
